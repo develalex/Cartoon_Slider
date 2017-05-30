@@ -1,0 +1,47 @@
+.fullblock{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+.block{
+    position: relative;
+    display: inline-block;
+    height: 514px;
+    border: 1px solid black;
+    adding: 20px 50px;
+   
+}
+.textblock   {
+    position: relative;
+    display: inline-block;
+    height: 512px;
+    border: 1px solid black;
+    padding: 0 20px;
+}
+.text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: inherit;
+    width: 256px;
+    
+}
+
+
+._txt{
+    display: none;
+}
+
+
+img{
+   transition: all 2s;
+    object-fit: none;
+}
+.nd{
+    display: none;
+}
+#txtID{
+    transition: all 1s;
+    font-style: italic;
+}
+
